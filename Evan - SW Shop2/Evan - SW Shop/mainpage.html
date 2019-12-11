@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hyprdrive</title>
+    <meta name="description" content="Selling the good stuff">
+    <meta name="author" content="Evan Omerinovic">
+    <meta name="viewport:" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css\reset.css">
+    <link rel="stylesheet" href="css\mainpage.css">
+  </head>
+    <body>
+      <header>
+        <nav class="navmenu">
+          <img class="logo" width="50px" src="imgs\logo.jpg" alt="logo">
+          <h1 class="title">HyprDrive</h1>
+            <label class="search-label" for="productName"></label>
+            <input type="text" name="productName" id="productName" style="width: 14em" value="">
+          <button type="button" class="btn" name="button">
+            <img width="50px" src="imgs\dropmenu.png" alt="drp">
+          </button>
+          <div class="categoryParent">
+              <select name="productCategory" id="productCategory" class="productCategory">
+                  <option value="all">All Ships</option>
+                  <option value="Imperial">Imperial</option>
+                  <option value="Rebellion">Rebellion</option>
+                  <option value="Unknown">Unknown</option>
+                </select>
+          </div>
+        </nav>
+      </header>
+      <main>
+
+        <ul id="products" class="items">
+          
+          <!-- <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\xwing.jpg" alt="xwing">
+              </div>
+              <a href="itempage.html" class="itemname">
+                X-Wing
+              </a>
+              <span class="price">
+                <strong>
+                $4,000,000
+                </strong>
+              </span>
+              </a>
+              <p class="detail-prod">Colour: <strong>Black</strong></p>
+              <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+              <p class="detail-prod">Condition: <strong>New</strong></p>
+            </li>
+          </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\xwing.jpg" alt="xwing">
+              </div>
+              <a href="itempage.html" class="itemname">
+                X-Wing
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\xwing.jpg" alt="xwing">
+              </div>
+              <a href="itempage.html" class="itemname">
+                X-Wing
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\tiefighter.jpg" alt="tie">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Tie Fighter
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\tiefighter.jpg" alt="tie">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Tie Fighter
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\tiefighter.jpg" alt="tie">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Tie Fighter
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\xwing.jpg" alt="xwing">
+              </div>
+              <a href="itempage.html" class="itemname">
+                X-Wing
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Star Destroyer
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Star Destroyer
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+            <div class="item">
+                <li class="itemarea">
+                  <a href="itempage.html" class="clickitem">
+                  <div class="photo">
+                    <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+                  </div>
+                  <a href="itempage.html" class="itemname">
+                    Star Destroyer
+                  </a>
+                  <span class="price">
+                      <strong>
+                      $4,000,000
+                      </strong>
+                    </span>
+                    </a>
+                    <p class="detail-prod">Colour: <strong>Black</strong></p>
+                    <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                    <p class="detail-prod">Condition: <strong>New</strong></p>
+                  </li>
+                </div>
+
+                <div class="item">
+                    <li class="itemarea">
+                      <a href="itempage.html" class="clickitem">
+                      <div class="photo">
+                        <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+                      </div>
+                      <a href="itempage.html" class="itemname">
+                        Star Destroyer
+                      </a>
+                      <span class="price">
+                          <strong>
+                          $4,000,000
+                          </strong>
+                        </span>
+                        </a>
+                        <p class="detail-prod">Colour: <strong>Black</strong></p>
+                        <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                        <p class="detail-prod">Condition: <strong>New</strong></p>
+                      </li>
+                    </div>
+
+                              <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\xwing.jpg" alt="xwing">
+              </div>
+              <a href="itempage.html" class="itemname">
+                X-Wing
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\tiefighter.jpg" alt="tie">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Tie Fighter
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\tiefighter.jpg" alt="tie">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Tie Fighter
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\tiefighter.jpg" alt="tie">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Tie Fighter
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\xwing.jpg" alt="xwing">
+              </div>
+              <a href="itempage.html" class="itemname">
+                X-Wing
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Star Destroyer
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Star Destroyer
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+            <div class="item">
+                <li class="itemarea">
+                  <a href="itempage.html" class="clickitem">
+                  <div class="photo">
+                    <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+                  </div>
+                  <a href="itempage.html" class="itemname">
+                    Star Destroyer
+                  </a>
+                  <span class="price">
+                      <strong>
+                      $4,000,000
+                      </strong>
+                    </span>
+                    </a>
+                    <p class="detail-prod">Colour: <strong>Black</strong></p>
+                    <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                    <p class="detail-prod">Condition: <strong>New</strong></p>
+                  </li>
+                </div>
+
+                <div class="item">
+                    <li class="itemarea">
+                      <a href="itempage.html" class="clickitem">
+                      <div class="photo">
+                        <img width="250px" src="imgs\stardestroyer.jpg" alt="star">
+                      </div>
+                      <a href="itempage.html" class="itemname">
+                        Star Destroyer
+                      </a>
+                      <span class="price">
+                          <strong>
+                          $4,000,000
+                          </strong>
+                        </span>
+                        </a>
+                        <p class="detail-prod">Colour: <strong>Black</strong></p>
+                        <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                        <p class="detail-prod">Condition: <strong>New</strong></p>
+                      </li>
+                    </div>
+                
+                          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\xwing.jpg" alt="xwing">
+              </div>
+              <a href="itempage.html" class="itemname">
+                X-Wing
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div>
+
+          <div class="item">
+            <li class="itemarea">
+              <a href="itempage.html" class="clickitem">
+              <div class="photo">
+                <img width="250px" src="imgs\tiefighter.jpg" alt="tie">
+              </div>
+              <a href="itempage.html" class="itemname">
+                Tie Fighter
+              </a>
+              <span class="price">
+                  <strong>
+                  $4,000,000
+                  </strong>
+                </span>
+                </a>
+                <p class="detail-prod">Colour: <strong>Black</strong></p>
+                <p class="detail-prod">Previous Owner: <strong>Ashoka Tano</strong></p>
+                <p class="detail-prod">Condition: <strong>New</strong></p>
+              </li>
+            </div> -->
+
+
+        </ul>
+      <script src="js\mainpage.js"></script>
+      </main>
+    </body>
+</html>

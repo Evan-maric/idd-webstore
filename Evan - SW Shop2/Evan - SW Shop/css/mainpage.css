@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+
+
+body {
+background-color: #0f0f0f;
+}
+
+
+  .navmenu {
+    display: grid;
+    grid-template-columns: 4em auto 4em;
+    grid-template-areas:   "logo  title  btn";
+    padding: 0.5em;
+    grid-column-gap: 0.5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    background-color: #231F20;
+    z-index: 2;
+    border-bottom: 0.1em;
+    border-style: ridge;
+    border-color: #C2B59B;
+}
+
+
+
+.logo {
+padding: 10px;
+}
+.title {
+  font-size: 2em;
+  font-family: megrim;
+  color: white;
+  line-height: 1;
+  align-self: center;
+  justify-self: center;
+  grid-area: title;
+}
+.btn {
+  border: 0;
+  grid-area: btn;
+  background-color: #231F20;
+  padding-right:
+}
+
+.btn:hover{
+  background-color:white;
+}
+
+input{
+	background-color: #0f0f0f;
+	justify-self: center;
+  align-self: center;
+  border-radius: 1em;
+  padding:.3em;
+  padding-left:1em;
+  padding-right:1em;
+  margin-bottom:.2em;
+  color: #C2B59B;
+}
+
+label{
+  color:white;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 2em;
+  padding-top: 7.9em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-bottom:2em;
+  text-align: center;
+}
+
+.detail-prod{
+  color:#C2B59B;
+  padding:.1em;
+  font-family: Rajdhani;
+}
+
+.itemarea{
+  background-color: #231F20;
+  list-style: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 1em;
+  border-style: groove;
+  border-color: #C2B59B;
+}
+
+.itemname  {
+  text-decoration: none;
+  display: block;
+  background-color: #0f0f0f;
+  font: 1.5em helvetica;
+  opacity: .6;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  color: #C2B59B;
+  font-family: megrim;
+}
+
+.price{
+  color: #C2B59B;
+  font-family: Rajdhani;
+}
+
+.itemarea:hover{
+  border-color: white;
+}
+
+.itemname:hover{
+  color:white;
+  background-color: #C2B59B;
+}
+
+.categoryParent{
+background-color:green;
+justify-self: center;
+align-self: center;
+margin-right:4em;
+display:block;
+
+}
+
+
+.productCategory{
+
+}
+
+@media screen and (min-width: 640px) {
+
+.items{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+
+
+@media screen and (min-width: 900px) {
+
+.items {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
